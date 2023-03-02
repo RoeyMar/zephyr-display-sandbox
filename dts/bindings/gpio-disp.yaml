@@ -1,0 +1,10 @@
+description: GPIO parent node
+
+compatible: "gpio-disp"
+
+properties:
+  gpios:
+    type: phandle-array
+    required: true
+    description: |
+      The selection pins connected to the display.
